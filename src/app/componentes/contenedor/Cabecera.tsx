@@ -32,11 +32,11 @@ export const Cabecera = () => {
 
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Peliculas
+                    Camisas
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <NavLink to="/plistar" className="dropdown-item">
+                      <NavLink to="/clistar" className="dropdown-item">
                         Listar
                       </NavLink>
                     </li>
@@ -44,12 +44,12 @@ export const Cabecera = () => {
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <NavLink to="/pcrear" className="dropdown-item">
+                      <NavLink to="/ccrear" className="dropdown-item">
                         Crear
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/padmin" className="dropdown-item">
+                      <NavLink to="/cadmin" className="dropdown-item">
                         Administrar
                       </NavLink>
                     </li>

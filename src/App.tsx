@@ -6,7 +6,7 @@ import { Cabecera } from "./app/componentes/contenedor/Cabecera";
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="App">
       <BrowserRouter>
         <Cabecera />
 

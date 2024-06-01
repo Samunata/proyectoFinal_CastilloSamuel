@@ -31,8 +31,8 @@ export const AcercaDe = () => {
             <div className="col-lg-3 mb-3 d-flex align-items-stretch">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">Roberto Espinosa Saldarriaga</h5>
-                  <p className="card-text">Desarrollador Junior</p>
+                  <h5 className="card-title">Samuel Matias Castillo Hernandez</h5>
+                  <p className="card-text">Estudiante de buenas practicas</p>
                   <div className="text-center ">
                     <img src={fotoPerfil2} alt="Foto developer" width="220px" height="auto" />
                   </div>

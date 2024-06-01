@@ -1,11 +1,11 @@
 import { Modal } from "react-bootstrap";
 import Button from "react-bootstrap/esm/Button";
 
-export const PeliVerImagen = (props: any) => {
+export const CamiVerImagen = (props: any) => {
   return (
     <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">nombre pelicula</Modal.Title>
+        <Modal.Title id="contained-modal-title-vcenter">nombre Camisa</Modal.Title>
       </Modal.Header>
 
       <Modal.Body>

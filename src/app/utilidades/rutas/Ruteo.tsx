@@ -3,10 +3,10 @@ import { Route, Routes } from "react-router-dom";
 import { AcercaDe } from "../../componentes/otros/AcercaDe";
 
 import { Inicio } from "../../componentes/contenedor/Inicio";
-import { PeliCrear } from "../../componentes/peliculas/PeliCrear";
-import { PeliAdmin } from "../../componentes/peliculas/PeliAdmin";
-import { PeliListado } from "../../componentes/peliculas/PeliListado";
-import { PeliActualizar } from "../../componentes/peliculas/PeliActualizar";
+import { CamiCrear } from "../../componentes/camisas/CamiCrear";
+import { CamiAdmin } from "../../componentes/camisas/CamiAdmin";
+import { CamiListado } from "../../componentes/camisas/CamiListado";
+import { CamiActualizar } from "../../componentes/camisas/CamiActualizar";
 
 import { NoEncontrado } from "../../componentes/contenedor/NoEncontrado";
 
@@ -14,11 +14,11 @@ export const Ruteo = () => {
   return (
     <Routes>
       <Route path="/" element={<Inicio />} />
-	  
-      <Route path="/pcrear" element={<PeliCrear />} />
-      <Route path="/padmin" element={<PeliAdmin />} />
-      <Route path="/plistar" element={<PeliListado />} />
-      <Route path="/pactual/:codigo" element={<PeliActualizar />} />
+
+      <Route path="/ccrear" element={< CamiCrear />} />
+      <Route path="/cadmin" element={< CamiAdmin />} />
+      <Route path="/clistar" element={< CamiListado />} />
+      <Route path="/cactual/:codigo" element={<CamiActualizar />} />
 
       <Route path="/acerca" element={<AcercaDe />} />
 
