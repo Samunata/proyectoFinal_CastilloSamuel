@@ -24,7 +24,7 @@ export const CamiCrear = () => {
   let {
     marcaCamisas,
     colorCamisas,
-    codTallaCamisas,
+    TallaCamisas,
     imagenCamisas,
     dobleEnlace,
     objeto,
