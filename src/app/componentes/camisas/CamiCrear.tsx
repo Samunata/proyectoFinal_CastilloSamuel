@@ -110,8 +110,8 @@ export const CamiCrear = () => {
                   <Form.Select
                     size="sm"
                     required
-                    name="codTallaCamisas"
-                    value={codTallaCamisas}
+                    name="TallaCamisas"
+                    value={TallaCamisas}
                     onChange={dobleEnlace}
                   >
                     <option value="">Seleccione una Talla</option>
